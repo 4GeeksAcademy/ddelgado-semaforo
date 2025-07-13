@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +24,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -40,3 +43,57 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.trafficText {
+  text-align: center;
+}
+
+.Box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 15px;
+  width: 100px;
+}
+
+.light {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+}
+
+.light.red {
+  background-color: rgb(31, 1, 1);
+
+}
+
+.light.red.on {
+  background-color: red;
+
+}
+
+.light.yellow {
+  background-color: rgb(44, 38, 3);
+
+}
+
+.light.yellow.on {
+  background-color: yellow;
+
+}
+
+.light.green {
+  background-color: rgb(1, 19, 2);
+
+}
+
+.light.green.on {
+  background-color: green;
+
+}
+
+
